@@ -1,0 +1,15 @@
+.header {
+    background-color: yellow;
+}
+
+.nav {
+    background-color: blueviolet;
+    color: black;
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 20px;
+}

@@ -12,11 +12,6 @@ nav {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1 green, blue, alpha);
 }
 
-/* .nav {
-    background-color: rgb(16, 236, 200);
-    color: rgb(47, 0, 255);
-    list-style-type: none;
-} */
 
 .nav li {
     display: inline-block;

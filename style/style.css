@@ -1,16 +1,87 @@
-.header {
-    background-color: yellow;
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: rgb(7, 224, 188);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1 green, blue, alpha);
 }
 
-.nav {
-    background-color: blueviolet;
-    color: black;
+/* .nav {
+    background-color: rgb(16, 236, 200);
+    color: rgb(47, 0, 255);
     list-style-type: none;
-}
+} */
 
 .nav li {
     display: inline-block;
     font-size: 25px;
     padding: 20px;
-}
+    }
+
+    .about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5rem;
+        max-width: :68.75rem;
+        margin: auto;
+    }
+
+    .about img {
+        height: 30rem;
+        width: 30rem;
+    }
+
+    .bio {
+        width: 25rem;
+        padding: 0.6rem;
+        border-radius: 5px;
+        box-shadow: 0.3rem 0;
+    }
+
+
+.bio h2 {
+    margin: bottom 20px;;
+  }
+
+  .bio p {
+    line-height: 20px;
+    padding: 0.3rem 0;
+  }
+
+  .skills {
+      max-width: 65rem;
+      margin: auto;
+      text-align: center;
+      margin-top: 2.5rem;
+  }
+
+  .skill-header {
+      margin-bottom: 1rem;
+  }
+
+  .skills-set img {
+      padding: 1.25rem;
+  }
+
+  .icon {
+      width: 10rem;
+      height: 10rem;
+  }
+
+  .icon-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px var(15px);
+      padding: 20px;
+      margin: 10px;
+  }
+
+
 

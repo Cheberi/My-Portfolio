@@ -100,15 +100,16 @@ nav h1 {
       display: flex;
       justify-content: center;
       padding: 10px;
-      margin: 5px;
+      margin: 20px;
+      border-radius: 10px;
   }
 
-  .project-one {
+  /* .project-one {
     
       border-radius: 25px;
       border: black;
       padding: 10px;
-  }
+  } */
 
   * {
     box-sizing: border-box;
@@ -117,10 +118,10 @@ nav h1 {
   
   input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
+    padding: 15px;
     border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 5px;
+    margin-bottom: 15px;
     resize: vertical;
   }
   
@@ -145,6 +146,11 @@ nav h1 {
     width: 30%;
     margin-top: 5px;
     padding: 20px;
+  }
+
+  .ma {
+      padding: 25px;
+      
   }
   
 

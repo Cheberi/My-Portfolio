@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(172, 133, 133);
+}
+
 nav {
     position: sticky;
     top: 0;
@@ -76,6 +80,10 @@ nav {
       box-shadow: 0 3px 10px var(15px);
       padding: 20px;
       margin: 10px;
+  }
+
+  .projects h2 {
+      text-align: center;
   }
 
 

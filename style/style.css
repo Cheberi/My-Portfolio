@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(172, 133, 133);
+    background-color: #f0fffc;
 }
 
 nav {
@@ -12,15 +12,21 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background-color: rgb(7, 224, 188);
+    background-color: #080708;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1 green, blue, alpha);
 }
+
 
 
 .nav li {
     display: inline-block;
     font-size: 25px;
     padding: 20px;
+    }
+
+nav h1 {
+        color: blueviolet
+        ;
     }
 
     .about {
@@ -30,6 +36,14 @@ nav {
         gap: 2.5rem;
         max-width: :68.75rem;
         margin: auto;
+    }
+
+    .bio {
+        font
+    }
+
+    .text {
+        font-size: 30px;
     }
 
     .about img {
@@ -82,9 +96,60 @@ nav {
       margin: 10px;
   }
 
-  .projects h2 {
-      text-align: center;
+  .projects  {
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      margin: 5px;
   }
+
+  .project-one {
+    
+      border-radius: 25px;
+      border: black;
+      padding: 10px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 30%;
+    margin-top: 5px;
+    padding: 20px;
+  }
+  
+
+  
+ 
 
 
 

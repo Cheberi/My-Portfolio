@@ -99,20 +99,8 @@ nav h1 {
   .projects {
       text-align: center;
   }
-
-  .column {
-    float: left;
-    width: 50%;
-  }
   
 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  
   input[type=text], select, textarea {
     width: 100%;
     padding: 15px;
@@ -152,7 +140,6 @@ nav h1 {
   .social {
       padding: 25px;
       font-size: 20px;
-      
       text-align: center;
   }
 

@@ -120,6 +120,11 @@ nav h1 {
     font-size: 25px;
   }
 
+  table a {
+
+      pointer-events: painted;
+  }
+
   input[type=text], select, textarea {
     width: 100%;
     padding: 10px;

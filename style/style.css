@@ -98,12 +98,31 @@ nav h1 {
 
   .projects {
       text-align: center;
+      padding: 50px;
   }
-  
+  table{
+      text-align: center;
+      align-items: flex;
+      padding: 60px;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  table tr {
+      padding:;
+      font-size: 20px;
+      
+  }
+
+  table tr td{
+    padding: 10px;
+    font-size: 25px;
+  }
 
   input[type=text], select, textarea {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #ccc;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -127,6 +146,7 @@ nav h1 {
 
   .container head {
       align-items: center;
+      padding: 1;
   }
   
   

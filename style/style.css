@@ -175,7 +175,7 @@ nav h1 {
       background-color: khaki;
   }
 
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 800) {
     body {
       background-color: lightblue;
     }

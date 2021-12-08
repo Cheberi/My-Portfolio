@@ -1,5 +1,5 @@
 body {
-    background-color: #f0fffc;
+    background-color: #17dab3;
 }
 
 nav {
@@ -13,7 +13,7 @@ nav {
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
     background-color: #080708;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1 green, blue, alpha);
+    box-shadow: grey);
 }
 
 
@@ -98,6 +98,8 @@ nav h1 {
   }
 
   .projects {
+      background-color: black;
+      color: white;
       text-align: center;
       padding: 50px;
   }
@@ -176,18 +178,6 @@ nav h1 {
       background-color: khaki;
   }
 
-  @media screen and (min-width: 800px) { 
-    body {
-        background-color: lightblue;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 800px) { 
-    body {
-        background-color: yellow;
-    }
-}
 
   
  

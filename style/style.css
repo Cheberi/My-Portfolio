@@ -175,12 +175,17 @@ nav h1 {
       background-color: khaki;
   }
 
-  @media only screen and (max-width: 800px) {
+  @media screen and (min-width: 800px) { 
     body {
-      background-color: lightblue;
+        background-color: lightblue;
     }
-  }
-  
+}
+
+@media screen and (max-width: 800px) { 
+    body {
+        background-color: yellow;
+    }
+}
 
   
  

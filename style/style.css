@@ -50,6 +50,7 @@ nav h1 {
     .about img {
         height: 30rem;
         width: 30rem;
+        align-items: center;
     }
 
     .bio {
@@ -103,6 +104,12 @@ nav h1 {
       text-align: center;
       padding: 50px;
   }
+
+  .projects-title {
+      font-weight: bold;
+  }
+
+
   table{
       text-align: center;
       align-items: flex;

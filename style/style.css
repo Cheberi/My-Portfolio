@@ -20,7 +20,7 @@ nav {
 .nav li {
     display: inline-block;
     font-size: 25px;
-    
+    align-items: center;
     }
 
 nav h1 {
@@ -44,6 +44,8 @@ nav h1 {
 
     .text {
         font-size: 30px;
+        align-items: center;
+        text-align: center;
     }
 
     .about img {
@@ -57,6 +59,7 @@ nav h1 {
         padding: 0.6rem;
         border-radius: 5px;
         box-shadow: 0.3rem 0;
+        align-items: center;
     }
 
 
@@ -74,6 +77,7 @@ nav h1 {
       margin: auto;
       text-align: center;
       margin-top: 2.5rem;
+      align-items: center;
   }
 
   .skill-header {
@@ -82,11 +86,14 @@ nav h1 {
 
   .skills-set img {
       padding: 1.25rem;
+      align-items: center;
+      text-align: center;
   }
 
   .icon {
       width: 10rem;
       height: 10rem;
+      align-items: center;
   }
 
   .icon-card {
@@ -95,6 +102,8 @@ nav h1 {
       box-shadow: 0 3px 10px var(15px);
       padding: 20px;
       margin: 10px;
+      align-items: center;
+      text-align: center;
   }
 
   .projects {
@@ -102,16 +111,20 @@ nav h1 {
       color: white;
       text-align: center;
       padding: 50px;
+      align-items: center;
+      text-align: center;
   }
 
   .projects-title {
       font-weight: bold;
+      align-items: center;
+      text-align: center;
   }
 
 
   table{
       text-align: center;
-      align-items: flex;
+      align-items: center;
       padding: 60px;
       position: relative;
       margin-left: auto;
@@ -121,60 +134,76 @@ nav h1 {
   table tr {
       padding:;
       font-size: 20px;
+      align-items: center;
+      text-align: center;
       
   }
 
   table tr td{
     padding: 10px;
     font-size: 25px;
+    align-items: center;
+    text-align: center;
   }
 
   table a {
-
-      pointer-events: painted;
+    align-items: center;
+    align-items: center;
+    /* pointer-events: painted; */
   }
 
   input[type=text], select, textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-    margin-top: 5px;
+    margin-top: 6px;
     margin-bottom: 15px;
     resize: vertical;
+    align-items: center;
+    text-align: center;
   }
   
   input[type=submit] {
     background-color: #04AA6D;
-    color: white;
+    color: rgb(255, 0, 0);
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+    align-items: center;
+    text-align: center;
   }
   
 
-  .container {
+  .contacts {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 10px;
+    padding: 5px;
+    align-items:center;
+    text-align: center;
   }
 
-  .container head {
+  /* .contacts head {
       align-items: center;
-      padding: 1;
-  }
+      padding: 15px;
+      align-items: center;
+  } */
   
   
   .column {
     float: left;
-    width: 30%;
+    width: 25%;
     margin-top: 5px;
     padding: 20px;
+    align-items: center;
+    text-align: center;
   }
 
   .social {
+      float: right;
       padding: 25px;
       font-size: 20px;
       text-align: center;
+      align-items: center;
   }
 
   .fa {
@@ -182,6 +211,7 @@ nav h1 {
       text-align: center;
       width: 100px;
       background-color: khaki;
+      align-items: center;
   }
 
 
